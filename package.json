@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/uiuxmsmb/fistx_web/issues"
   },
-  "homepage": "https://github.com/uiuxmsmb/fistx_web#readme"
+  "homepage": "https://github.com/uiuxmsmb/fistx_web#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-header": "^2.0.9",
+    "gulp-sass": "^4.1.0"
+  }
 }
