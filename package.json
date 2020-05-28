@@ -1,0 +1,24 @@
+{
+  "name": "fistx_web",
+  "version": "1.0.0",
+  "description": "Fistx Indonesia Website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uiuxmsmb/fistx_web.git"
+  },
+  "keywords": [
+    "html",
+    "web",
+    "fistx"
+  ],
+  "author": "PT MSMB Indonesia",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/uiuxmsmb/fistx_web/issues"
+  },
+  "homepage": "https://github.com/uiuxmsmb/fistx_web#readme"
+}
