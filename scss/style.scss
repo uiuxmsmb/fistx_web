@@ -9,3 +9,70 @@
 body {
     font-family: $custom-google-font;
 }
+
+// Sections
+section {
+    padding: $gap 0;
+}
+
+// Hero
+.hero {
+    padding: 0;
+    background: $primary-color;
+    background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+    color: #ffffff;
+    header {
+        box-shadow: 0 1px 0 0 rgba(255,255,255,.15);
+        >.container {
+            height: 100px;
+        }
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            &:hover {
+                color: #ffffff;
+                text-decoration: none;
+            }
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li {
+                display: inline-block;
+                margin: 0 $gap / 2;
+                > a {
+                    display: block;
+                    line-height: 20px;
+                    color: rgba(255,255,255,.4);
+                    position: relative;
+                    &:after {
+                        content: ".";
+                    }
+                }
+                &.active {
+                    > a {
+                        color: rgba(255,255,255,1);
+                        &:before {
+                            position: absolute;
+                            content: "";
+                            bottom: -41px;
+                            height: 1px;
+                            left: 0;
+                            right: 0;
+                            background-color: yellow;
+                        }
+                    }
+                }
+                &:hover {
+                    > a {
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+    .hero-content {
+        padding: $gap * 3 0;
+    }
+  }

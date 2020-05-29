@@ -11,3 +11,52 @@
 
 body {
   font-family: "Inter", sans-serif; }
+
+section {
+  padding: 30px 0; }
+
+.hero {
+  padding: 0;
+  background: #3B4594;
+  background: -o-linear-gradient(315deg, #3B4594 0%, #38ACE2 100%);
+  background: linear-gradient(135deg, #3B4594 0%, #38ACE2 100%);
+  color: #ffffff; }
+  .hero header {
+    -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.15);
+            box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.15); }
+    .hero header > .container {
+      height: 100px; }
+    .hero header a {
+      color: #ffffff;
+      text-decoration: none; }
+      .hero header a:hover {
+        color: #ffffff;
+        text-decoration: none; }
+    .hero header nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .hero header nav ul li {
+        display: inline-block;
+        margin: 0 15px; }
+        .hero header nav ul li > a {
+          display: block;
+          line-height: 20px;
+          color: rgba(255, 255, 255, 0.4);
+          position: relative; }
+          .hero header nav ul li > a:after {
+            content: "."; }
+        .hero header nav ul li.active > a {
+          color: white; }
+          .hero header nav ul li.active > a:before {
+            position: absolute;
+            content: "";
+            bottom: -41px;
+            height: 1px;
+            left: 0;
+            right: 0;
+            background-color: yellow; }
+        .hero header nav ul li:hover > a {
+          color: #ffffff; }
+  .hero .hero-content {
+    padding: 90px 0; }
