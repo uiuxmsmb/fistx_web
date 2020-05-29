@@ -8,6 +8,7 @@
 
 body {
     font-family: $custom-google-font;
+    background-color: $base-color;
 }
 
 // Sections
@@ -21,6 +22,19 @@ section {
     background: $primary-color;
     background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
     color: #ffffff;
+    padding-bottom: 200px;
+    position: relative;
+    &:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 200px;
+        content: "";
+        background: url(../img/hero_path.svg);
+        background-size: cover; 
+        z-index: 2;
+    }
     header {
         box-shadow: 0 1px 0 0 rgba(255,255,255,.15);
         >.container {
@@ -74,5 +88,15 @@ section {
     }
     .hero-content {
         padding: $gap * 3 0;
+        h1 {
+            font-size: 64px;
+            font-weight: 700; 
+            margin-bottom: $gap;
+        }
+        p {
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 200;
+        }
     }
   }
