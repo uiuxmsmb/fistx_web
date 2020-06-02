@@ -193,3 +193,30 @@ section {
     .latest-news .card .card-body .meta {
       font-size: 14px;
       color: #9B9B9B; }
+
+footer {
+  background-color: #2D2F34; }
+  footer > .container {
+    padding: 45px 0; }
+    footer > .container .col-title {
+      font-weight: 700;
+      color: #ffffff; }
+    footer > .container .col-list {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      footer > .container .col-list > li {
+        display: block;
+        font-size: 14px;
+        padding: 5px 0; }
+        footer > .container .col-list > li > a {
+          color: rgba(255, 255, 255, 0.5); }
+        footer > .container .col-list > li:hover > a {
+          text-decoration: none;
+          color: #ffffff; }
+  footer .copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    height: auto;
+    min-height: 90px;
+    color: #ffffff;
+    font-size: 14px; }
