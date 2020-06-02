@@ -14,12 +14,16 @@ body {
 
 // Button
 .btn {
-    .btn-primary {
+    height: 50px;
+    padding: 13px $gap;
+    font-size: 14px;
+    &.btn-primary {
         background-color: $secondary-color;
         border-color: $secondary-color;
-        color: #ffffff;
+        color: #ffffff !important;
         &:hover {
             color: #ffffff;
+            background-color: darken($secondary-color,10);
         }
     }
 }
@@ -124,6 +128,7 @@ section {
             width: 60px;
             padding-left: 5px;
             padding-right: 5px;
+            padding-top: 6px;
             color: rgba(255,255,255,.6);
             &.btn-active {
                 background-color: rgba(0,0,0,0.15);
