@@ -14,6 +14,13 @@ body {
   background-color: #F7F8FD;
   color: #4A4A4A; }
 
+.btn.btn-primary {
+  background-color: #38ACE2;
+  border-color: #38ACE2;
+  color: #ffffff; }
+  .btn.btn-primary:hover {
+    color: #ffffff; }
+
 section {
   padding: 30px 0; }
 
@@ -100,7 +107,8 @@ section {
       font-weight: 200; }
 
 .company-point {
-  margin-bottom: 90px; }
+  margin-top: 45px;
+  margin-bottom: 60px; }
   .company-point .media img {
     width: 42px; }
   .company-point .media .media-body {
@@ -111,3 +119,24 @@ section {
       font-weight: 700;
       color: #4A4A4A;
       margin-bottom: 15px; }
+
+.fistx-platform .platform-content {
+  background-color: #ffffff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.04);
+  padding: 60px;
+  padding-bottom: 0; }
+  .fistx-platform .platform-content h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px; }
+  .fistx-platform .platform-content p {
+    color: #9B9B9B;
+    font-size: 16px;
+    margin-bottom: 30px; }
+  .fistx-platform .platform-content .platform-showcase {
+    margin-top: 45px; }
+    .fistx-platform .platform-content .platform-showcase img {
+      width: 100%;
+      max-width: 820px; }
