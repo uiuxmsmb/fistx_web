@@ -198,7 +198,8 @@ section {
 footer {
   background-color: #2D2F34; }
   footer > .container {
-    padding: 45px 0; }
+    padding-top: 45px;
+    padding-bottom: 45px; }
     footer > .container .col-title {
       font-weight: 700;
       color: #ffffff; }
