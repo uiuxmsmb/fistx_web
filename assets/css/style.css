@@ -14,11 +14,11 @@ body {
   background-color: #F7F8FD;
   color: #4A4A4A; }
 
-.btn.btn-primary {
+.btn .btn-primary {
   background-color: #38ACE2;
   border-color: #38ACE2;
   color: #ffffff; }
-  .btn.btn-primary:hover {
+  .btn .btn-primary:hover {
     color: #ffffff; }
 
 section {
@@ -96,6 +96,17 @@ section {
             background-color: yellow; }
         .hero header nav ul li:hover > a {
           color: #ffffff; }
+    .hero header .btn-lang {
+      height: 30px;
+      font-size: 12px;
+      background-color: rgba(255, 255, 255, 0.1);
+      width: 60px;
+      padding-left: 5px;
+      padding-right: 5px;
+      color: rgba(255, 255, 255, 0.6); }
+      .hero header .btn-lang.btn-active {
+        background-color: rgba(0, 0, 0, 0.15);
+        color: #ffffff; }
   .hero .hero-content {
     padding: 120px 0; }
     .hero .hero-content h1 {
@@ -222,3 +233,5 @@ footer {
     min-height: 90px;
     color: #ffffff;
     font-size: 14px; }
+    footer .copyright .footer-logo {
+      width: 60px; }

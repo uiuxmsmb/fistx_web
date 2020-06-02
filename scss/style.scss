@@ -13,12 +13,14 @@ body {
 }
 
 // Button
-.btn.btn-primary {
-    background-color: $secondary-color;
-    border-color: $secondary-color;
-    color: #ffffff;
-    &:hover {
+.btn {
+    .btn-primary {
+        background-color: $secondary-color;
+        border-color: $secondary-color;
         color: #ffffff;
+        &:hover {
+            color: #ffffff;
+        }
     }
 }
 
@@ -113,6 +115,19 @@ section {
                         color: #ffffff;
                     }
                 }
+            }
+        }
+        .btn-lang {
+            height: 30px;
+            font-size: 12px;
+            background-color: rgba(255,255,255,.1);
+            width: 60px;
+            padding-left: 5px;
+            padding-right: 5px;
+            color: rgba(255,255,255,.6);
+            &.btn-active {
+                background-color: rgba(0,0,0,0.15);
+                color: #ffffff;
             }
         }
     }
@@ -285,5 +300,8 @@ footer {
         min-height: 90px;
         color: #ffffff;
         font-size: 14px;
+        .footer-logo {
+            width: 60px;
+        }
     }
 }
