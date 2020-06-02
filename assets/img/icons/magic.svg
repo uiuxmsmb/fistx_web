@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon4 - Linearicons-Free</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="100%" cy="98.3914256%" fx="100%" fy="98.3914256%" r="139.356568%" id="radialGradient-1">
+            <stop stop-color="#38ACE2" offset="0%"></stop>
+            <stop stop-color="#3B4594" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Linearicons-Free" font-size="42" font-weight="normal">
+        <g id="01_FisTx_Web_Home_01" transform="translate(-135.000000, -907.000000)" fill="url(#radialGradient-1)" fill-rule="nonzero">
+            <g id="Group-11" transform="translate(135.000000, 897.000000)">
+                <g id="Group-10">
+                    <text id="icon4---Linearicons-Free">
+                        <tspan x="0" y="50"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

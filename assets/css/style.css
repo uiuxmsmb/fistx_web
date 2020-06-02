@@ -11,7 +11,8 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: #F7F8FD; }
+  background-color: #F7F8FD;
+  color: #4A4A4A; }
 
 section {
   padding: 30px 0; }
@@ -50,6 +51,9 @@ section {
             box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.15);
     position: relative;
     z-index: 3; }
+    .hero header .logo > a > img {
+      width: 100%;
+      max-width: 90px; }
     .hero header > .container {
       height: 100px; }
     .hero header a {
@@ -94,3 +98,16 @@ section {
       font-size: 18px;
       line-height: 28px;
       font-weight: 200; }
+
+.company-point {
+  margin-bottom: 90px; }
+  .company-point .media img {
+    width: 42px; }
+  .company-point .media .media-body {
+    font-size: 14px;
+    color: #9B9B9B; }
+    .company-point .media .media-body h5 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #4A4A4A;
+      margin-bottom: 15px; }
