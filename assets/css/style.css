@@ -31,7 +31,8 @@ section {
   background: linear-gradient(135deg, #3B4594 0%, #38ACE2 100%);
   color: #ffffff;
   padding-bottom: 200px;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .hero:after {
     position: absolute;
     bottom: 0;
