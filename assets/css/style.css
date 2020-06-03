@@ -330,3 +330,26 @@ footer {
 
 .about-hiring {
   margin-bottom: 90px; }
+
+.products {
+  margin-bottom: 60px; }
+  .products h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 45px; }
+  .products .card {
+    background-color: #ffffff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.04);
+            box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.04);
+    border-width: 0;
+    margin-bottom: 30px; }
+    .products .card .card-body {
+      padding: 45px;
+      padding-top: 30px; }
+      .products .card .card-body .card-title {
+        font-size: 20px;
+        font-weight: 700; }
+      .products .card .card-body .card-text {
+        color: #9B9B9B;
+        margin-bottom: 30px; }
