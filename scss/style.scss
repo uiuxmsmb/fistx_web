@@ -405,8 +405,12 @@ footer {
 // About Page
 .about-text {
     margin-top: $gap * 2;
+    .sup-title {
+        color: $secondary-color;
+    }
     p {
         line-height: 28px;
+        color: $muted-text-color;
     }
     .about-img {
         border-radius: 6px;
@@ -480,6 +484,32 @@ footer {
             &:last-child {
                 border-bottom: none;
             }
+        }
+    }
+}
+
+// Apps Page
+.apps-text {
+    margin-top: $gap;
+    margin-bottom: $gap * 3;
+    .sup-title {
+        color: $secondary-color;
+    }
+    p {
+        line-height: 28px;
+        color: $muted-text-color;
+    }
+    .gplay {
+        width: auto;
+        max-width: 220px;
+        margin-top: $gap;
+    }
+    .apps-img {
+        margin-top: -$gap * 7;
+        text-align: right;
+        > img {
+            width: 100%;
+            max-width: 247px;
         }
     }
 }

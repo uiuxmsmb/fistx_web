@@ -317,8 +317,11 @@ footer {
 
 .about-text {
   margin-top: 60px; }
+  .about-text .sup-title {
+    color: #38ACE2; }
   .about-text p {
-    line-height: 28px; }
+    line-height: 28px;
+    color: #9B9B9B; }
   .about-text .about-img {
     border-radius: 6px;
     overflow: hidden;
@@ -378,3 +381,22 @@ footer {
           margin-bottom: 15px; }
       .services .services-content .media:last-child {
         border-bottom: none; }
+
+.apps-text {
+  margin-top: 30px;
+  margin-bottom: 90px; }
+  .apps-text .sup-title {
+    color: #38ACE2; }
+  .apps-text p {
+    line-height: 28px;
+    color: #9B9B9B; }
+  .apps-text .gplay {
+    width: auto;
+    max-width: 220px;
+    margin-top: 30px; }
+  .apps-text .apps-img {
+    margin-top: -210px;
+    text-align: right; }
+    .apps-text .apps-img > img {
+      width: 100%;
+      max-width: 247px; }
