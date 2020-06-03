@@ -451,3 +451,35 @@ footer {
         }
     }
 }
+
+// Services
+.services {
+    margin-top: $gap * 1.5;
+    margin-bottom: $gap * 2;
+    .services-content {
+        background-color: #ffffff;
+        border-radius: 4px;
+        box-shadow: 0 20px 30px 0 rgba(0,0,0,0.04);
+        padding: $gap / 3 $gap * 1.5;
+        .media {
+            padding: $gap 0;
+            border-bottom: 1px solid #E5E5EA;
+            img {
+                width: 120px;
+            }
+            .media-body {
+                h5 {
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: $text-color;
+                    margin-bottom: $gap / 2;
+                }
+                font-size: 16px;
+                color: $muted-text-color;
+            }
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+}
