@@ -250,6 +250,9 @@ section {
       font-size: 12px;
       color: #9B9B9B; }
 
+.latest-news.inner-page .card {
+  margin-bottom: 30px; }
+
 footer {
   background-color: #2D2F34; }
   footer > .container {

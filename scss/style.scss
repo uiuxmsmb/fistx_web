@@ -310,6 +310,11 @@ section {
             }
         }
     }
+    &.inner-page {
+        .card {
+            margin-bottom: $gap;
+        }
+    }
 }
 
 // Footer
