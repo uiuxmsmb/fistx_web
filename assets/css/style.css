@@ -471,3 +471,6 @@ footer {
       .product-detail.has-cover-image .cover-image > img {
         width: auto;
         max-width: 100%; }
+
+.general-inner-page {
+  padding: 90px 0; }
