@@ -400,3 +400,19 @@ footer {
     .apps-text .apps-img > img {
       width: 100%;
       max-width: 247px; }
+
+.contact-us {
+  margin: 90px 0; }
+  .contact-us p.address {
+    color: #9B9B9B;
+    margin: 15px 0 45px 0; }
+  .contact-us .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px; }
+    .contact-us .contact-list > li {
+      margin: 15px 0; }
+      .contact-us .contact-list > li .fa {
+        margin-right: 10px;
+        color: #38ACE2; }
