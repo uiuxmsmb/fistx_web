@@ -250,8 +250,8 @@ section {
                 margin-bottom: $gap / 2;
             }
             p {
-                font-size: 16px;
-                line-height: 24px;
+                font-size: 14px;
+                line-height: 22px;
             }
             &.inner-pages {
                 padding: $gap * 2 0;
@@ -302,10 +302,15 @@ section {
 
 @media screen and (max-width: 420px) {
     .company-point {
-        margin-top: $gap;
-        margin-bottom: $gap;
+        margin-top: $gap / 2;
+        margin-bottom: 0;
         .media {
             margin-bottom: $gap;
+            .media-body {
+                h5 {
+                    margin-bottom: $gap / 3;
+                }
+            }
         }
     }
 }
@@ -337,6 +342,25 @@ section {
         }
     }
 }
+@media screen and (max-width: 420px) {
+    .fistx-platform {
+        .platform-content {
+            padding: $gap $gap / 1.5;
+            padding-bottom: 0;
+            h3 {
+                font-size: 28px;
+                margin-bottom: $gap / 2;
+            }
+            p {
+                font-size: 14px;
+                margin-bottom: $gap / 2;
+            }
+            .platform-showcase {
+                margin-top: $gap;
+            }
+        }
+    }
+}
 
 // Main product
 .main-product {
@@ -356,6 +380,24 @@ section {
             .card-text {
                 color: $muted-text-color;
                 margin-bottom: $gap;
+            }
+        }
+    }
+}
+@media screen and (max-width: 420px) {
+    .main-product {
+        margin-bottom: $gap;
+        .card {
+            margin-bottom: $gap;
+            .card-body {
+                padding: $gap / 1.5;
+                .card-title {
+                    font-size: 22px;
+                }
+                .card-text {
+                    font-size: 14px;
+                    margin-bottom: $gap / 2;
+                }
             }
         }
     }

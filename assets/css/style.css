@@ -207,8 +207,8 @@ section {
       font-size: 34px;
       margin-bottom: 15px; }
     .hero .hero-content p {
-      font-size: 16px;
-      line-height: 24px; }
+      font-size: 14px;
+      line-height: 22px; }
     .hero .hero-content.inner-pages {
       padding: 60px 0; }
       .hero .hero-content.inner-pages h1 {
@@ -240,10 +240,12 @@ section {
 
 @media screen and (max-width: 420px) {
   .company-point {
-    margin-top: 30px;
-    margin-bottom: 30px; }
+    margin-top: 15px;
+    margin-bottom: 0; }
     .company-point .media {
-      margin-bottom: 30px; } }
+      margin-bottom: 30px; }
+      .company-point .media .media-body h5 {
+        margin-bottom: 10px; } }
 
 .fistx-platform .platform-content {
   background-color: #ffffff;
@@ -266,6 +268,19 @@ section {
       width: 100%;
       max-width: 820px; }
 
+@media screen and (max-width: 420px) {
+  .fistx-platform .platform-content {
+    padding: 30px 20px;
+    padding-bottom: 0; }
+    .fistx-platform .platform-content h3 {
+      font-size: 28px;
+      margin-bottom: 15px; }
+    .fistx-platform .platform-content p {
+      font-size: 14px;
+      margin-bottom: 15px; }
+    .fistx-platform .platform-content .platform-showcase {
+      margin-top: 30px; } }
+
 .main-product {
   margin-bottom: 60px; }
   .main-product .card {
@@ -283,6 +298,19 @@ section {
       .main-product .card .card-body .card-text {
         color: #9B9B9B;
         margin-bottom: 30px; }
+
+@media screen and (max-width: 420px) {
+  .main-product {
+    margin-bottom: 30px; }
+    .main-product .card {
+      margin-bottom: 30px; }
+      .main-product .card .card-body {
+        padding: 20px; }
+        .main-product .card .card-body .card-title {
+          font-size: 22px; }
+        .main-product .card .card-body .card-text {
+          font-size: 14px;
+          margin-bottom: 15px; } }
 
 .latest-news .container > h3 {
   text-align: center;
