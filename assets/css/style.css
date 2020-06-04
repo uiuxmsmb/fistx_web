@@ -444,3 +444,30 @@ footer {
     .news-detail.has-cover-image .cover-image > img {
       width: auto;
       max-width: 100%; }
+
+.product-detail-meta {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  display: inline-block; }
+  .product-detail-meta > span {
+    color: #ffffff; }
+
+.product-detail {
+  margin-bottom: 60px; }
+  .product-detail .product-text p {
+    line-height: 28px; }
+  .product-detail.has-cover-image {
+    position: relative;
+    margin-top: -330px; }
+    .product-detail.has-cover-image .cover-image {
+      overflow: hidden;
+      border-radius: 4px;
+      margin-bottom: 30px; }
+      .product-detail.has-cover-image .cover-image > img {
+        width: auto;
+        max-width: 100%; }
