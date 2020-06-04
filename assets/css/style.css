@@ -238,6 +238,13 @@ section {
       font-size: 14px;
       margin-bottom: 10px; }
 
+@media screen and (max-width: 420px) {
+  .company-point {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    .company-point .media {
+      margin-bottom: 30px; } }
+
 .fistx-platform .platform-content {
   background-color: #ffffff;
   border-radius: 4px;

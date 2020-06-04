@@ -300,6 +300,16 @@ section {
     }
 }
 
+@media screen and (max-width: 420px) {
+    .company-point {
+        margin-top: $gap;
+        margin-bottom: $gap;
+        .media {
+            margin-bottom: $gap;
+        }
+    }
+}
+
 // Fistx platform
 .fistx-platform {
     .platform-content {
