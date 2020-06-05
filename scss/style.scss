@@ -416,6 +416,9 @@ section {
             color: $muted-text-color;
             margin-bottom: $gap * 2;
         }
+        .row.mb-5 {
+            margin-bottom: $gap / 2 !important;
+        }
     }
     .card {
         background-color: #ffffff;
@@ -451,6 +454,32 @@ section {
     &.inner-page {
         .card {
             margin-bottom: $gap;
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .latest-news {
+        .container {
+            > h3 {
+                font-size: 28px;
+                margin-bottom: $gap / 6;
+            }
+            > p {
+                margin-bottom: $gap;
+                font-size: 14px;
+            }
+        }
+        .card {
+            margin-bottom: $gap / 2;
+            .card-body {
+                padding: $gap / 1.5;
+            }
+        }
+        &.inner-page {
+            .card {
+                margin-bottom: $gap / 2;
+            }
         }
     }
 }
