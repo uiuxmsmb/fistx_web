@@ -421,6 +421,21 @@ footer {
     footer .copyright .footer-logo {
       width: 60px; }
 
+@media screen and (max-width: 420px) {
+  footer > .container {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    footer > .container .col-title {
+      margin-bottom: 5px;
+      font-size: 14px; }
+    footer > .container .col-list {
+      margin-bottom: 20px; }
+      footer > .container .col-list > li {
+        font-size: 12px;
+        padding: 3px 0; }
+    footer > .container .subscribe {
+      margin-bottom: 10px; } }
+
 .about-text {
   margin-top: 60px; }
   .about-text .sup-title {

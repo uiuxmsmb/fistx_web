@@ -556,6 +556,29 @@ footer {
         }
     }
 }
+@media screen and (max-width: 420px) {
+    footer {
+        > .container {
+            padding-top: $gap / 1.5;
+            padding-bottom: $gap / 1.5;
+            .col-title {
+                margin-bottom: $gap / 6;
+                font-size: 14px;
+            }
+            .col-list {
+                margin-bottom: $gap / 1.5;
+                > li {
+                    font-size: 12px;
+                    padding: $gap / 10 0;
+                }
+            }
+            .subscribe {
+                margin-bottom: $gap / 3;
+            }
+        }
+    }
+}
+
 
 // About Page
 .about-text {
