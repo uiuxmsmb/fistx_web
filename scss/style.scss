@@ -576,6 +576,16 @@ footer {
                 margin-bottom: $gap / 3;
             }
         }
+        .copyright {
+            text-align: center;
+            font-size: 12px;
+            .footer-logo {
+                margin-bottom: $gap / 3;
+            }
+            .text-right {
+                text-align: center !important;
+            }
+        }
     }
 }
 
