@@ -301,9 +301,9 @@ section {
 
 @media screen and (max-width: 420px) {
   .main-product {
-    margin-bottom: 30px; }
+    margin-bottom: 0; }
     .main-product .card {
-      margin-bottom: 30px; }
+      margin-bottom: 15px; }
       .main-product .card .card-body {
         padding: 20px; }
         .main-product .card .card-body .card-title {
