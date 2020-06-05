@@ -576,6 +576,26 @@ footer {
       .services .services-content .media:last-child {
         border-bottom: none; }
 
+@media screen and (max-width: 420px) {
+  .services {
+    margin-top: 0;
+    margin-bottom: 0; }
+    .services .services-content {
+      padding: 0 20px; }
+      .services .services-content .media {
+        padding: 20px 0;
+        display: block !important;
+        text-align: center; }
+        .services .services-content .media img {
+          margin-bottom: 20px; }
+          .services .services-content .media img.mr-4 {
+            margin-right: 0 !important; }
+        .services .services-content .media .media-body {
+          font-size: 14px; }
+          .services .services-content .media .media-body h5 {
+            font-size: 18px;
+            margin-bottom: 6px; } }
+
 .apps-text {
   margin-top: 30px;
   margin-bottom: 90px; }

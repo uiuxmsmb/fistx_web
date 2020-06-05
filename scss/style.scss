@@ -762,6 +762,33 @@ footer {
         }
     }
 }
+@media screen and (max-width: 420px) {
+    .services {
+        margin-top: 0;
+        margin-bottom: 0;
+        .services-content {
+            padding: 0 $gap / 1.5;
+            .media {
+                padding: $gap / 1.5 0;
+                display: block !important;
+                text-align: center;
+                img {
+                    margin-bottom: $gap / 1.5;
+                    &.mr-4 {
+                        margin-right: 0 !important;
+                    }
+                }
+                .media-body {
+                    h5 {
+                        font-size: 18px;
+                        margin-bottom: $gap / 5;
+                    }
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
 
 // Apps Page
 .apps-text {
