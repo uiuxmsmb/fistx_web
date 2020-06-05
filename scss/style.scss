@@ -790,6 +790,14 @@ footer {
     }
 }
 
+@media screen and (max-width: 420px) {
+    .latest-news.inner-page {
+        .container .mt-5 {
+            margin-top: 0 !important;
+        }
+    }
+}
+
 // Apps Page
 .apps-text {
     margin-top: $gap;
