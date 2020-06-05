@@ -147,6 +147,9 @@ section {
       .hero header .btn-lang.btn-active {
         background-color: rgba(0, 0, 0, 0.15);
         color: #ffffff; }
+    .hero header .burger-menu,
+    .hero header .lang-menu {
+      display: none; }
   .hero .hero-content {
     padding: 120px 0; }
     .hero .hero-content h1 {
@@ -196,6 +199,30 @@ section {
             color: #ffffff; }
             .hero header nav ul li.active > a:before {
               display: none; }
+    .hero header .nav-lang {
+      display: none; }
+    .hero header .logo {
+      position: absolute;
+      left: 50%;
+      margin-left: -45px; }
+    .hero header .burger-menu {
+      background-color: rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+      display: block; }
+    .hero header .lang-menu {
+      background-color: rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+      display: block; }
   .hero.homepage {
     padding-bottom: 0; }
     .hero.homepage:before {

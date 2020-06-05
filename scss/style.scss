@@ -171,6 +171,10 @@ section {
                 color: #ffffff;
             }
         }
+        .burger-menu,
+        .lang-menu {
+            display: none;
+        }
     }
     .hero-content {
         padding: $gap * 4 0;
@@ -233,6 +237,34 @@ section {
                         }
                     }
                 }
+            }
+            .nav-lang {
+                display: none;
+            }
+            .logo {
+                position: absolute;
+                left: 50%;
+                margin-left: -45px;
+            }
+            .burger-menu {
+                background-color: rgba(0,0,0,.15);
+                border-radius: 4px;
+                width: 40px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                cursor: pointer;
+                display: block;
+            }
+            .lang-menu {
+                background-color: rgba(0,0,0,.15);
+                border-radius: 4px;
+                width: 40px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                cursor: pointer;
+                display: block;
             }
         }
 
