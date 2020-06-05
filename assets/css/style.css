@@ -619,6 +619,24 @@ footer {
       width: 100%;
       max-width: 247px; }
 
+@media screen and (max-width: 420px) {
+  .apps-text {
+    margin-top: 0;
+    margin-bottom: 0; }
+    .apps-text .sup-title {
+      color: #38ACE2; }
+    .apps-text p {
+      line-height: 24px;
+      font-size: 14px; }
+    .apps-text .gplay {
+      max-width: 180px;
+      margin-top: 15px; }
+    .apps-text .apps-img {
+      margin-top: 30px;
+      text-align: center; }
+      .apps-text .apps-img > img {
+        max-width: 180px; } }
+
 .contact-us {
   margin: 90px 0; }
   .contact-us p.address {

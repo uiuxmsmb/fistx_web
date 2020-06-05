@@ -823,6 +823,30 @@ footer {
         }
     }
 }
+@media screen and (max-width: 420px) {
+    .apps-text {
+        margin-top: 0;
+        margin-bottom: 0;
+        .sup-title {
+            color: $secondary-color;
+        }
+        p {
+            line-height: 24px;
+            font-size: 14px;
+        }
+        .gplay {
+            max-width: 180px;
+            margin-top: $gap / 2;
+        }
+        .apps-img {
+            margin-top: $gap;
+            text-align: center;
+            > img {
+                max-width: 180px;
+            }
+        }
+    }
+}
 
 // Contact Us
 .contact-us {
