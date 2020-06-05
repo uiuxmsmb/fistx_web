@@ -60,6 +60,14 @@ section {
     font-weight: 700;
     margin-bottom: 30px; }
 
+@media screen and (max-width: 420px) {
+  section .sup-title {
+    font-size: 12px;
+    margin-bottom: 5px; }
+  section .text-title {
+    font-size: 28px;
+    margin-bottom: 15px; } }
+
 .hero {
   padding: 0;
   background: #3B4594;
@@ -184,7 +192,9 @@ section {
       left: 0;
       right: 0;
       height: auto;
-      padding: 15px 0; }
+      padding: 15px 0;
+      -webkit-box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.04);
+              box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.04); }
       .hero header nav ul li {
         display: block;
         margin: 0; }
@@ -236,9 +246,10 @@ section {
       font-size: 14px;
       line-height: 22px; }
     .hero .hero-content.inner-pages {
-      padding: 60px 0; }
+      padding: 30px 0;
+      padding-top: 140px; }
       .hero .hero-content.inner-pages h1 {
-        font-size: 36px;
+        font-size: 34px;
         margin-bottom: 15px; } }
 
 .company-point {
@@ -271,7 +282,9 @@ section {
     .company-point .media {
       margin-bottom: 30px; }
       .company-point .media .media-body h5 {
-        margin-bottom: 10px; } }
+        margin-bottom: 10px; }
+    .company-point.has-background .media {
+      margin-bottom: 15px; } }
 
 .fistx-platform .platform-content {
   background-color: #ffffff;
@@ -488,6 +501,15 @@ footer {
 .about-hiring {
   margin-bottom: 90px; }
 
+@media screen and (max-width: 420px) {
+  .about-text {
+    margin-top: 15px; }
+    .about-text p {
+      line-height: 24px;
+      font-size: 14px; }
+  .about-hiring {
+    margin-bottom: 30px; } }
+
 .products {
   margin-bottom: 60px; }
   .products h3 {
@@ -510,6 +532,24 @@ footer {
       .products .card .card-body .card-text {
         color: #9B9B9B;
         margin-bottom: 30px; }
+
+@media screen and (max-width: 420px) {
+  .main-product.mt-5,
+  .products.mt-5 {
+    margin-top: 0 !important; }
+  .products {
+    margin-bottom: 0; }
+    .products h3 {
+      margin-bottom: 20px; }
+    .products .card {
+      margin-bottom: 15px; }
+      .products .card .card-body {
+        padding: 20px; }
+        .products .card .card-body .card-title {
+          font-size: 20px; }
+        .products .card .card-body .card-text {
+          font-size: 14px;
+          margin-bottom: 15px; } }
 
 .services {
   margin-top: 45px;

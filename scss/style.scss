@@ -63,6 +63,18 @@ section {
         margin-bottom: $gap;
     }
 }
+@media screen and (max-width: 420px) {
+    section {
+        .sup-title {
+            font-size: 12px;
+            margin-bottom: $gap / 6;
+        }
+        .text-title {
+            font-size: 28px;
+            margin-bottom: $gap / 2;
+        }
+    }
+}
 
 // Hero
 .hero {
@@ -218,6 +230,7 @@ section {
                 right: 0;
                 height: auto;
                 padding: $gap / 2 0;
+                box-shadow: 0 20px 30px 0 rgba(0,0,0,0.04);
                 // display: none;
                 li {
                     display: block;
@@ -286,9 +299,10 @@ section {
                 line-height: 22px;
             }
             &.inner-pages {
-                padding: $gap * 2 0;
+                padding: $gap 0;
+                padding-top: ($gap * 4) + 20px;
                 h1 {
-                    font-size: 36px;
+                    font-size: 34px;
                     margin-bottom: $gap / 2;
                 }
             }
@@ -342,6 +356,11 @@ section {
                 h5 {
                     margin-bottom: $gap / 3;
                 }
+            }
+        }
+        &.has-background {
+            .media {
+                margin-bottom: $gap / 2;
             }
         }
     }
@@ -642,9 +661,20 @@ footer {
         }
     }
 }
-
 .about-hiring {
     margin-bottom: $gap * 3;
+}
+@media screen and (max-width: 420px) {
+    .about-text {
+        margin-top: $gap / 2;
+        p {
+            line-height: 24px;
+            font-size: 14px;
+        }
+    }
+    .about-hiring {
+        margin-bottom: $gap;
+    }
 }
 
 // Product
@@ -671,6 +701,31 @@ footer {
             .card-text {
                 color: $muted-text-color;
                 margin-bottom: $gap;
+            }
+        }
+    }
+}
+@media screen and (max-width: 420px) {
+    .main-product.mt-5,
+    .products.mt-5 {
+        margin-top: 0 !important;
+    }
+    .products {
+        margin-bottom: 0;
+        h3 {
+            margin-bottom: $gap / 1.5;
+        }
+        .card {
+            margin-bottom: $gap / 2;
+            .card-body {
+                padding: $gap / 1.5;
+                .card-title {
+                    font-size: 20px;
+                }
+                .card-text {
+                    font-size: 14px;
+                    margin-bottom: $gap / 2;
+                }
             }
         }
     }
