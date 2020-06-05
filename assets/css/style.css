@@ -653,6 +653,19 @@ footer {
         margin-right: 10px;
         color: #38ACE2; }
 
+@media screen and (max-width: 420px) {
+  .contact-us {
+    margin: 0; }
+    .contact-us p.address {
+      color: #9B9B9B;
+      margin: 15px 0 30px 0;
+      font-size: 14px; }
+    .contact-us .contact-list {
+      margin-bottom: 30px; }
+      .contact-us .contact-list > li {
+        margin: 6px 0;
+        font-size: 14px; } }
+
 .news-detail-meta {
   padding: 0 20px;
   height: 40px;

@@ -869,6 +869,23 @@ footer {
         }
     }
 }
+@media screen and (max-width: 420px) {
+    .contact-us {
+        margin: 0;
+        p.address {
+            color: $muted-text-color;
+            margin: $gap / 2 0 $gap 0;
+            font-size: 14px;
+        }
+        .contact-list {
+            margin-bottom: $gap;
+            > li {
+                margin: $gap / 5 0;
+                font-size: 14px;
+            }
+        }
+    }
+}
 
 // News Detail
 .news-detail-meta {
