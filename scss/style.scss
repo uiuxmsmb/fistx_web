@@ -85,7 +85,7 @@ section {
     position: relative;
     overflow: hidden;
     &.homepage {
-        padding-bottom: 200px;
+        padding-bottom: 120px;
         &:after {
             position: absolute;
             bottom: 0;
@@ -108,6 +108,34 @@ section {
             background-repeat: no-repeat;
             background-size: 100% 620px;
             z-index: 0;
+        }
+        .media.hero-play {
+            margin-top: $gap * 1.5;
+            img {
+                width: 60px;
+            }
+            .media-body {
+                // background-color: red;
+                margin-top: 10px;
+                h5 {
+                    font-size: 14px;
+                    color: rgba(255,255,255,.4);
+                    font-weight: normal;
+                    margin-bottom: 0;
+                }
+                font-weight: 700;
+                a {
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+            }
+            &:hover {
+                .media-body {
+                    h5 {
+                        color: #ffffff;
+                    }
+                }
+            }
         }
     }
     &.has-cover-image {
