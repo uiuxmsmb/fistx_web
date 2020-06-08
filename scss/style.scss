@@ -311,6 +311,9 @@ section {
                 }
             }
         }
+        &.has-cover-image {
+            padding-bottom: 0;
+        }
         
     }
 }
@@ -923,6 +926,28 @@ footer {
                 max-width: 100%;
             }
         }
+    }
+}
+@media screen and (max-width: 420px) {
+    .news-detail-meta {
+        font-size: 12px;
+    }
+    .news-detail {
+        .news-text {
+            p {
+                line-height: 22px;
+                font-size: 14px;
+            }
+        }
+        &.has-cover-image {
+            margin-top: 0;
+            .cover-image {
+                margin-bottom: $gap / 2;
+            }
+        }
+    }
+    .latest-news .mb-5 {
+        margin-bottom: $gap !important;
     }
 }
 
