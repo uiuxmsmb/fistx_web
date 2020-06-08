@@ -63,7 +63,7 @@ section {
         margin-bottom: $gap;
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     section {
         .sup-title {
             font-size: 12px;
@@ -240,7 +240,7 @@ section {
 }
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .hero {
         header {
             position: fixed;
@@ -381,7 +381,7 @@ section {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .company-point {
         margin-top: $gap / 2;
         margin-bottom: 0;
@@ -428,7 +428,7 @@ section {
         }
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .fistx-platform {
         .platform-content {
             padding: $gap $gap / 1.5;
@@ -470,7 +470,7 @@ section {
         }
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .main-product {
         margin-bottom: 0;
         .card {
@@ -544,7 +544,7 @@ section {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .latest-news {
         .container {
             > h3 {
@@ -699,7 +699,7 @@ footer {
 .about-hiring {
     margin-bottom: $gap * 3;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .about-text {
         margin-top: $gap / 2;
         p {
@@ -740,7 +740,7 @@ footer {
         }
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .main-product.mt-5,
     .products.mt-5 {
         margin-top: 0 !important;
@@ -825,7 +825,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .latest-news.inner-page {
         .container .mt-5 {
             margin-top: 0 !important;
@@ -858,7 +858,7 @@ footer {
         }
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .apps-text {
         margin-top: 0;
         margin-bottom: 0;
@@ -904,7 +904,7 @@ footer {
         }
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .contact-us {
         margin: 0;
         p.address {
@@ -956,7 +956,7 @@ footer {
         }
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .news-detail-meta {
         font-size: 12px;
     }
@@ -1014,7 +1014,7 @@ footer {
         }
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
     .product-detail-meta {
         font-size: 12px;
     }
