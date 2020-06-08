@@ -986,6 +986,26 @@ footer {
         }
     }
 }
+@media screen and (max-width: 420px) {
+    .product-detail-meta {
+        font-size: 12px;
+    }
+    .product-detail {
+        margin-bottom: 0;
+        .product-text {
+            p {
+                line-height: 22px;
+                font-size: 14px;
+            }
+        }
+        &.has-cover-image {
+            margin-top: 0;
+            .cover-image {
+                margin-bottom: $gap / 2;
+            }
+        }
+    }
+}
 
 // General inner page
 .general-inner-page {

@@ -738,5 +738,18 @@ footer {
         width: auto;
         max-width: 100%; }
 
+@media screen and (max-width: 420px) {
+  .product-detail-meta {
+    font-size: 12px; }
+  .product-detail {
+    margin-bottom: 0; }
+    .product-detail .product-text p {
+      line-height: 22px;
+      font-size: 14px; }
+    .product-detail.has-cover-image {
+      margin-top: 0; }
+      .product-detail.has-cover-image .cover-image {
+        margin-bottom: 15px; } }
+
 .general-inner-page {
   padding: 90px 0; }
